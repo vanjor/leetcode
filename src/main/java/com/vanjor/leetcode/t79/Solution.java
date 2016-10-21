@@ -1,8 +1,10 @@
 package com.vanjor.leetcode.t79;
 
 /**
+ *  problem: word-search https://leetcode.com/problems/word-search/
  *  time: taking 4+ hours for mistaking array.clone should be shallow clone
  *  performance: O(n) time, O(n) space , >97% Java
+ *  method: dic & recursive
  */
 public class Solution implements SolutionInterface {
 
