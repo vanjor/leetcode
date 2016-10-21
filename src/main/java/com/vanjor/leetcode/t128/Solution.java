@@ -3,10 +3,11 @@ package com.vanjor.leetcode.t128;
 import java.util.HashMap;
 
 /**
- *  problem: Longest Consecutive Sequence https://leetcode.com/problems/longest-consecutive-sequence/
+ *  medium
+ *  problem: word-search https://leetcode.com/problems/word-search/
  *  time: taking 4+ hours for 2 coding bug, array index&value mistake, iteration infinite loop
- *  performance: O(n) time, O(n) space , >28% Java
- *  method: hashmap dic & link
+ *  performance: O(n) time, O(n) space , >97% Java
+ *  method: dic & recursive
  */
 public class Solution implements SolutionInterface {
     public static class LinNode {
